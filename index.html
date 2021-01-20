@@ -10,64 +10,66 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
   <title>Devchallenges | Interior-Consultant</title>
   <link href="styles.css" rel="stylesheet">
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-  <span>THIS INTERIOR</span>
-    <div class="topnav" id="myTopnav">
-    <a href="javascript:void(0)" class="closebtn" >&times;</a>
-    <a href="#home" class="active ">Home</a>
-    <a href="#collection" >Collection</a>
-    <a href="#about" >About</a>
-    <a href="#colllection" >Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">      
+  
+  <div class="topnav" id="myTopnav">
+    <span>THIS INTERIOR</span>
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <a href="#home" >Contact</a>
+    <a href="#collection">About</a>
+    <a href="#about">Collection</a>
+    <a href="#colllection" class="active ">Home</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
-    
-    </div>
-  
-  <main>
-  
+
+  </div>
+
+
+  <div class="container">
     <div class="top-left">
       <h1 id="about">Modern interior</h1>
       <p>A full-Service residential & commercial interior design and staging company offering professional organizing &
         eco-services.</p>
       <p>Read more ➡️ </p>
     </div>
+    <div class="img-card">
+      <img src="photo1.png" id="right-image">
+      <div class="card-details">
+        <div class="card-column">
+          <img src="photo2.png" id="designer-image">
+          <div class="card-row">
+            <strong>Aliza Webber</strong><br>
+            <small>Interior designer</small>
+          </div>
 
-    <img src="photo1.png">
-    <div class="card-details">
-      <div class="card-column">
-        <img src="photo2.png" id="designer-image">
-        <div class="card-row">
-          <strong>Aliza Webber</strong><br>
-          <small>Interior designer</small>
         </div>
-        
+
+        <div>Designed in 2020 by Aliza Webber</div>
       </div>
-      
-      <div>Designed in 2020 by Aliza Webber</div>
     </div>
+  </div>
 
 
 
- 
-</main>
-<script>
-  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-  function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
+
+  <script>
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
   </script>
-<footer>Radhika Joshi @DevChallenges.io</footer>
+  <footer>Radhika Joshi @DevChallenges.io</footer>
 
 </body>
 
