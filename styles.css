@@ -6,13 +6,13 @@
 
 body{
     display:flex;
-    flex-direction: column;
+    flex-direction:column;
     flex-wrap: wrap;
    
     
 }
 .topnav {
-  
+    margin-top:1%;
     overflow: hidden;
     float: right;
 }
@@ -84,6 +84,9 @@ span{
         display: block;
         text-align: left;
     }
+    #right-image{
+        width:100%;
+    }
 }
 
 .container {
@@ -99,7 +102,8 @@ span{
    
     display: flex;
     flex-direction: column;
-    
+    margin-top:2%;
+    margin-left:5%;
     padding-left: 1rem;
 }
 
@@ -107,17 +111,11 @@ span{
     width: 250px;
 }
 
-.img-card {
-    /* border: 2px solid blue; */
-    display:inline-block;
-    width:fit-content;
-    border:2px solid white;
-    
-   
-}
+
 
 #right-image {
-    
+    margin-top:2%;
+    margin-left:8%;
    width:50%;
     z-index:1;
 }
