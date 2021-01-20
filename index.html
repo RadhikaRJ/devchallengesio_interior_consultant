@@ -10,20 +10,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
   <title>Devchallenges | Interior-Consultant</title>
   <link href="styles.css" rel="stylesheet">
-
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-  <header>
-    <div class="nav-bar" id="topnav"></div>
-    <span id="title">THIS INTERIOR</span>
-    <a href="/" class="active">Home</a>
-    <a href="/">Collection</a>
-    <a href="/">About</a>
-    <a href="/">Contact</a>
+  <span>THIS INTERIOR</span>
+    <div class="topnav" id="myTopnav"></div>
+  
+    <a href="/" class="active link">Home</a>
+    <a href="/" class="link">Collection</a>
+    <a href="/" class="link">About</a>
+    <a href="/" class="link">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
     </div>
-  </header>
+  
   <main>
   
     <div class="top-left">
@@ -51,7 +55,19 @@
 
  
 </main>
+<script>
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </script>
 <footer>Radhika Joshi @DevChallenges.io</footer>
+
 </body>
 
 </html>
