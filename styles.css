@@ -126,9 +126,13 @@ span{
     border:2px solid yellow;
     width:fit-content;
     z-index:2;
-    position:relative;
+    position: absolute;
+    top:80%;
+    left:60%;
     align-items:baseline;
+    float:right;
     justify-content: center;
+    
 
 }
 .card-column{
@@ -136,7 +140,18 @@ span{
     flex-direction: row;
     margin:1rem;
 }
-
+#designer-image{
+   top:1%;
+    width:12vh;
+    border-radius: 50%;
+   
+   
+}
+.card-row{
+padding-left:1rem;
+padding-top:1rem;
+letter-spacing: 1px;;
+}
 
 footer{
     text-align: center;
