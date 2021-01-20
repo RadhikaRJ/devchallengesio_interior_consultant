@@ -12,7 +12,7 @@ body{
     
 }
 .topnav {
-    margin-top:1%;
+    margin-top:2%;
     overflow: hidden;
     float: right;
 }
@@ -87,6 +87,7 @@ span{
     #right-image{
         width:100%;
     }
+    
 }
 
 .container {
@@ -124,35 +125,44 @@ span{
     display:flex;
     flex-direction: column;
     border:2px solid yellow;
-    width:fit-content;
+    width:50vh;
+    height:25vh;
     z-index:2;
     position: absolute;
     top:80%;
-    left:60%;
-    align-items:baseline;
-    float:right;
-    justify-content: center;
-    
+    left:55%;
+   }
 
-}
 .card-column{
     display:flex;
     flex-direction: row;
-    margin:1rem;
+    padding-top:0.5rem;
+    padding-left:1rem;
 }
 #designer-image{
-   top:1%;
-    width:12vh;
+   
+    width:10vh;
     border-radius: 50%;
    
    
 }
 .card-row{
 padding-left:1rem;
-padding-top:1rem;
-letter-spacing: 1px;;
+padding-top:0.5rem;
+letter-spacing: 1px;
+font-size:large;
+margin-bottom: 0;
+padding-bottom: 0;;
 }
 
 footer{
+    position: absolute;
     text-align: center;
+    bottom:0%;
+} 
+.card p{
+    font-weight: bold;
+    padding:0rem 1rem;
+    font-size:1.5rem;
+    width: fit-content;
 }
