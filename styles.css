@@ -13,20 +13,19 @@
 .topnav a{
 
 text-align: center;
-display:block;
+display:inline;
 font-size: 18px;
 padding:1rem 1rem;
+text-decoration: none;
+padding:0.5rem;
 
 }
 
-.link{
-    text-decoration: none;
-    padding:0.5rem;
-}
 
-.active{
+
+.topnav a.active{
     font-weight: bold;
-    margin-left:5rem;
+   
 }
 
 
@@ -36,7 +35,7 @@ padding:1rem 1rem;
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-    .topnav {display: none;}
+    .topnav a{display: none;}
     .topnav a.icon {
       float: right;
       display: block;
@@ -57,3 +56,5 @@ padding:1rem 1rem;
       text-align: left;
     }
   }
+
+ 
