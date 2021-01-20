@@ -87,7 +87,7 @@ span{
     #right-image{
         width:100%;
     }
-    
+   
 }
 
 .container {
@@ -124,12 +124,12 @@ span{
 .card{
     display:flex;
     flex-direction: column;
-    border:2px solid yellow;
+   
     width:50vh;
     height:25vh;
     z-index:2;
     position: absolute;
-    top:80%;
+    top:82%;
     left:55%;
    }
 
@@ -155,14 +155,15 @@ margin-bottom: 0;
 padding-bottom: 0;;
 }
 
-footer{
-    position: absolute;
-    text-align: center;
-    bottom:0%;
-} 
+
 .card p{
     font-weight: bold;
     padding:0rem 1rem;
     font-size:1.5rem;
     width: fit-content;
 }
+footer{
+    position: absolute;
+    text-align: center;
+    bottom:0%;
+} 
