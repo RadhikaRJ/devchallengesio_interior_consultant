@@ -4,13 +4,27 @@
     box-sizing: border-box;
 }
 
-body{
+
+html, body {
+   
+    position:relative;
+    height: 100%; 
     
+}
+header{
     display:flex;
     flex-direction:column;
     flex-wrap: wrap;
-    
-    
+}
+main{
+    display:flex;
+    justify-content:center;
+    height:100vh;
+}
+main section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .topnav {
@@ -111,7 +125,8 @@ span{
     
     flex-wrap:wrap;
     justify-content: space-evenly;
-    
+    min-width: 330px;
+    min-height: 400px;
 }
 
 .top-left {
@@ -147,8 +162,8 @@ img{
     height:25vh;
     z-index:3;
     position:absolute;
-    top:90%;
-    left:55%;
+    top:95%;
+    left:65%;
    }
 
 .card-column{
