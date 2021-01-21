@@ -19,7 +19,7 @@
 
   <div class="topnav" id="myTopnav">
     <span>THIS INTERIOR</span>
-    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <a href="javascript:void(0)" class="closebtn" onclick="myFunction()">&times;</a>
     <a href="#home">Contact</a>
     <a href="#collection">About</a>
     <a href="#about">Collection</a>
@@ -29,36 +29,36 @@
     </a>
 
   </div>
+ 
+    <div class="container">
 
-  <div class="container">
+      <div class="top-left">
+        <h1 id="about">Modern interior</h1>
+        <p>A full-Service residential & commercial interior design and staging company offering professional organizing
+          &
+          eco-services.</p>
+        <p>Read more ➡️ </p>
+      </div>
 
-    <div class="top-left">
-      <h1 id="about">Modern interior</h1>
-      <p>A full-Service residential & commercial interior design and staging company offering professional organizing &
-        eco-services.</p>
-      <p>Read more ➡️ </p>
-    </div>
+      <img src="photo1.png" id="right-image">
 
-    <img src="photo1.png" id="right-image">
+      <div class="card">
+        <div class="card-column">
+          <img src="photo2.png" id="designer-image">
+          <div class="card-row">
+            <strong>Aliza Webber</strong><br>
+            <small>Interior designer</small>
+          </div>
 
-    <div class="card">
-      <div class="card-column">
-        <img src="photo2.png" id="designer-image">
-        <div class="card-row">
-          <strong>Aliza Webber</strong><br>
-          <small>Interior designer</small>
         </div>
-
+        <p>Designed in 2020 by <br> Aliza Webber</p>
       </div>
 
 
-      <p>Designed in 2020 by <br> Aliza Webber</p>
+
     </div>
-
-
-    <footer>Radhika Joshi @DevChallenges.io</footer>
-  </div>
-
+  
+  <p id="DC">Radhika Joshi @DevChallenges.io</p>
 
 
 
@@ -69,7 +69,7 @@
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
-        x.className += " responsive";
+        x.className += " responsive overlay";
       } else {
         x.className = "topnav";
       }
