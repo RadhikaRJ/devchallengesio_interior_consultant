@@ -161,7 +161,7 @@ img{
    }
 
 .card-column{
-    display: 2px solid white;
+    border: 2px solid white;
     display:flex;
     flex-direction: row;
     padding-top:0.5rem;
