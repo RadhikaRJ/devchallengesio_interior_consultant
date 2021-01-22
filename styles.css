@@ -160,7 +160,11 @@ span{
     padding:0rem 3.5rem 0.5rem 0.5rem;
     
     height:fit-content;
-   width:fit-content;
+    width:fit-content;
+
+    z-index:1;
+    position:absolute;
+    bottom:5%;
   
     
    
@@ -221,6 +225,6 @@ footer{
 #DC{
    /* border: 2px solid pink; */
     text-align: center;
-   
-    bottom:0;
+   z-index:2;
+    
 }
