@@ -57,7 +57,7 @@ span{
     display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 600 pixels wide, hide all links. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .topnav a {
         display: none;
@@ -111,7 +111,7 @@ span{
 }
 
 .container {
-   border:2px solid purple;
+  
     display: flex;
     flex-direction: row;    
     flex-wrap:wrap;    
@@ -139,7 +139,7 @@ span{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 2px solid red;
+   
     width: fit-content;
     height:fit-content;
     margin-right:7%;
@@ -159,7 +159,7 @@ span{
 
 
 .card{
-    border: 2px solid blue;
+   
     display:flex;
     flex-direction: column;
    flex-wrap: wrap;
@@ -180,7 +180,7 @@ span{
    }
 
 .card-column{
-    /* border: 2px solid white; */
+    
     display:flex;
     flex-direction: row;
    
@@ -199,7 +199,7 @@ span{
    
 }
 .card-row{
-/* border: 2px solid red; */
+
 padding-left:1rem;
 
 letter-spacing: 1px;
@@ -214,7 +214,7 @@ padding-right: 1rem;
 
 
 .card p{
-    /* border: 2px solid green; */
+  
     font-weight: bold;
     margin-top:0;
     font-size:1.5rem;
@@ -233,7 +233,7 @@ footer{
 } 
 
 #DC{
-   /* border: 2px solid pink; */
+ 
     text-align: center;
    z-index:2;
     
