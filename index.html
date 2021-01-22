@@ -15,23 +15,22 @@
 </head>
 
 <body>
+  <div class="main-container">
 
-<header>
-  <div class="topnav" id="myTopnav">
-    <span>THIS INTERIOR</span>
-    <a href="javascript:void(0)" class="closebtn" onclick="myFunction()">&times;</a>
-    <a href="#home">Contact</a>
-    <a href="#collection">About</a>
-    <a href="#about">Collection</a>
-    <a href="#colllection" class="active ">Home</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
+    <div class="topnav" id="myTopnav">
+      <span>THIS INTERIOR</span>
+      <a href="javascript:void(0)" class="closebtn" onclick="myFunction()">&times;</a>
+      <a href="#home">Contact</a>
+      <a href="#collection">About</a>
+      <a href="#about">Collection</a>
+      <a href="#colllection" class="active ">Home</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
 
-  </div>
-</header>
-<main>
-  <section>
+    </div>
+
+
     <div class="container" id="myContainer">
 
       <div class="top-left">
@@ -59,28 +58,25 @@
 
 
     </div>
-  <br>
-  <p id="DC">Radhika Joshi @DevChallenges.io</p>
-
-</section>
-</main>
+    <br>
+    <p id="DC">Radhika Joshi @DevChallenges.io</p>
 
 
-  <script>
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive overlay";
-      } else {
-        x.className = "topnav";
+
+
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive overlay";
+        } else {
+          x.className = "topnav";
+        }
       }
-    }
+    </script>
 
-   
-  </script>
-
-
+  </div>
 
 </body>
 
