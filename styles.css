@@ -1,7 +1,7 @@
 * {
     color: white;
     background: black;
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 
@@ -162,22 +162,19 @@ span{
     border: 2px solid blue;
     display:flex;
     flex-direction: column;
-   
+   flex-wrap: wrap;
     padding:0rem 3.5rem 0.5rem 0.5rem;
     
     height:fit-content;
-    width:fit-content;
-
+    width:fit-content;    
+    position:relative;
     
-    position: relative;
-    align-self:relative;
-    justify-content: flex-end;
+    
    
     
     z-index:1;
    
-    left:55%;
-    bottom:5%;
+    
     
    
    }
@@ -194,7 +191,7 @@ span{
 }
 #designer-image{
    
-    width:5vw;
+    width:15vh;
     height:10vh;
     padding:0.5rem;
     border-radius: 50%;
