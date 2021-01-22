@@ -95,8 +95,9 @@ span{
         
        
     }
-    #right-image{
-        width:100%;
+   .container .responsive img{
+        width:10vh;
+        height:50vh;
 
     }
     .closebtn {
@@ -137,18 +138,23 @@ span{
 .card-image{
     display:flex;
     flex-direction: column;
+    flex-wrap: wrap;
     border: 2px solid red;
     width: fit-content;
     height:fit-content;
     margin-right:7%;
+   
 }
 
 
 #right-image{
     margin-top:3%;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;    
-    width:110vh;
-    height:70vh;
+    width:55vw;
+    height:60vh;
+   
+   
+   
 }
 
 
@@ -162,10 +168,16 @@ span{
     height:fit-content;
     width:fit-content;
 
+    
+    position: relative;
+    align-self:relative;
+    justify-content: flex-end;
+   
+    
     z-index:1;
-    position:absolute;
+   
+    left:55%;
     bottom:5%;
-  
     
    
    }
@@ -182,7 +194,8 @@ span{
 }
 #designer-image{
    
-    width:10vh;
+    width:5vw;
+    height:10vh;
     padding:0.5rem;
     border-radius: 50%;
    
