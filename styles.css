@@ -5,25 +5,21 @@
 }
 
 
-
-.main-container{
-    border:2px solid yellow;
-    position:relative;
-    height: 100%; 
-    display:flex;
-    flex-direction:column;
-    
+body{
+    display: flex;
+    flex-direction: column;
 }
 
+
 .topnav {
-    border:2px solid red;
-    margin-top:2%;
+    
+    margin-top:1%;
     overflow: hidden;
     float: right;
 }
 
 .topnav a {
- border: 2px solid green;
+ 
     text-align: center;
     display: inline;
     font-size: 18px;
@@ -38,13 +34,13 @@ span{
     text-align: center;
     display: inline;
     font-size: 15px;
-    padding: 0.1rem;
+    padding: 0.5rem;
     text-decoration: none;
     float:left;
    border: 1px solid white;
     margin-left: 8%;
-    margin-top:1.5rem;
-    border: 2px solid orange
+    margin-top:0.8rem;
+    
 }
 
 .topnav a.active {
@@ -71,6 +67,8 @@ span{
         float: right;
         display: flex;
     }
+
+   
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -86,6 +84,7 @@ span{
         right: 0;
         top: 0;
         float:right;
+       
     }
 
     .topnav.responsive a {
@@ -106,91 +105,111 @@ span{
         right: 45px;
         font-size: 80px;
       }
-     
+      
    
 }
 
 .container {
    border:2px solid purple;
     display: flex;
-    flex-direction: row;
-    
-    flex-wrap:wrap;
-    justify-content: space-evenly;
+    flex-direction: row;    
+    flex-wrap:wrap;    
     min-width: 330px;
     min-height: 400px;
+    justify-content:space-between;
 }
 
 .top-left {
-   border: 2px solid lightblue;
+  
     display: flex;
     flex-direction: column;
     margin-top:2%;
-    margin-left:5%;
+    margin-left:8%;
     padding-left: 1rem;
-    justify-content: flex-start;
+    padding-right:1%;
+    
 }
 
 .top-left p {
     width: 250px;
 }
 
-
-
-img{
-    border: 2px solid white;
-    margin-top:2%;
-    margin-left:8%;
-    width:50%;
-    z-index:1;
+.card-image{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid red;
+    width: fit-content;
+    height:fit-content;
+    margin-right:7%;
 }
 
 
+#right-image{
+    margin-top:3%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;    
+    width:110vh;
+    height:70vh;
+}
+
 
 .card{
-    border: 2px solid lightgoldenrodyellow;
+    border: 2px solid blue;
     display:flex;
     flex-direction: column;
    
-    width:50vh;
-    height:25vh;
-   z-index:1;
-    position:relative;
-    top:95%;
-    left:65%;
+    padding:0rem 3.5rem 0.5rem 0.5rem;
+    
+    height:fit-content;
+   width:fit-content;
+  
+    
+   
    }
 
 .card-column{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display:flex;
     flex-direction: row;
-    padding-top:0.5rem;
+   
     padding-left:1rem;
+    width: fit-content;
+    height:fit-content;
+    margin-top: 0%;
 }
 #designer-image{
    
     width:10vh;
+    padding:0.5rem;
     border-radius: 50%;
    
    
 }
 .card-row{
-    border: 2px solid red;
+/* border: 2px solid red; */
 padding-left:1rem;
-padding-top:0.5rem;
+
 letter-spacing: 1px;
 font-size:large;
-margin-bottom: 0;
-padding-bottom: 0;;
+padding-right:1rem;
+width:fit-content;
+height:fit-content;
+margin-top:5%;
+padding-right: 1rem;
+
 }
 
 
 .card p{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     font-weight: bold;
-    padding:0rem 1rem;
+    margin-top:0;
     font-size:1.5rem;
-    width: fit-content;
+    width: inherit;
+    height:fit-content;
+    margin-left:2%;
+    letter-spacing: 1px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
 }
 footer{
   
@@ -200,8 +219,8 @@ footer{
 } 
 
 #DC{
-   border: 2px solid pink;
-    text-align: left;
-   justify-content: flex-end;
+   /* border: 2px solid pink; */
+    text-align: center;
+   
     bottom:0;
 }

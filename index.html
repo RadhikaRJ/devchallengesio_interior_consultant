@@ -15,10 +15,10 @@
 </head>
 
 <body>
-  <div class="main-container">
+  
 
     <div class="topnav" id="myTopnav">
-      <span>THIS INTERIOR</span>
+      <span class="nav-left-label" onclick="myFunction()">THIS INTERIOR</span>
       <a href="javascript:void(0)" class="closebtn" onclick="myFunction()">&times;</a>
       <a href="#home">Contact</a>
       <a href="#collection">About</a>
@@ -41,42 +41,47 @@
         <p>Read more ➡️ </p>
       </div>
 
-      <img src="photo1.png" id="right-image">
+      <div class="card-image">
+        <img src="photo1.png" id="right-image">
 
-      <div class="card">
-        <div class="card-column">
-          <img src="photo2.png" id="designer-image">
-          <div class="card-row">
-            <strong>Aliza Webber</strong><br>
-            <small>Interior designer</small>
+        <div class="card">
+          <div class="card-column">
+            <img src="photo2.png" id="designer-image">
+            <div class="card-row">
+              <strong>Aliza Webber</strong><br>
+              <small style="color:rgb(136, 134, 131);">Interior designer</small>
+            </div>
+
           </div>
-
+          <p>Designed in 2020 by <br> Aliza Webber</p>
+         
         </div>
-        <p>Designed in 2020 by <br> Aliza Webber</p>
-      </div>
 
+
+
+      </div>
+      
 
 
     </div>
     <br>
     <p id="DC">Radhika Joshi @DevChallenges.io</p>
-
-
-
-
     <script>
       /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
       function myFunction() {
         var x = document.getElementById("myTopnav");
+        
         if (x.className === "topnav") {
-          x.className += " responsive overlay";
+          x.className += " responsive";
         } else {
           x.className = "topnav";
         }
+       
+        
       }
     </script>
 
-  </div>
+  
 
 </body>
 
