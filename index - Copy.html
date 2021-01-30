@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+  <title>Devchallenges | Interior-Consultant</title>
+  <link href="styles.css" rel="stylesheet">
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  
+
+    <div class="topnav" id="myTopnav">
+      <span class="nav-left-label" onclick="myFunction()">THIS INTERIOR</span>
+      <a href="javascript:void(0)" class="closebtn" onclick="myFunction()">&times;</a>
+      <a href="#home">Contact</a>
+      <a href="#collection">About</a>
+      <a href="#about">Collection</a>
+      <a href="#colllection" class="active ">Home</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+
+    </div>
+
+
+    <div class="container" id="myContainer">
+
+      <div class="top-left">
+        <h1 id="about">Modern interior</h1>
+        <p>A full-Service residential & commercial interior design and staging company offering professional organizing
+          &
+          eco-services.</p>
+        <p>Read more ➡️ </p>
+      </div>
+
+      <div class="card-image">
+        <img src="photo1.png" id="right-image">
+
+        <div class="card">
+          <div class="card-column">
+            <img src="photo2.png" id="designer-image">
+            <div class="card-row">
+              <strong>Aliza Webber</strong><br>
+              <small style="color:rgb(136, 134, 131);">Interior designer</small>
+            </div>
+
+          </div>
+          <p>Designed in 2020 by <br> Aliza Webber</p>
+         
+        </div>
+
+
+
+      </div>
+      
+
+
+    </div>
+    <br><br><br><br>
+    <p id="DC">Radhika Joshi @DevChallenges.io</p>
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        var y = document.getElementById("myContainer");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+       
+        
+      }
+    </script>
+
+  
+
+</body>
+
+</html>
