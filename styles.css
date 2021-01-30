@@ -241,4 +241,7 @@ nav a:focus {
         margin-bottom:0;
         z-index:5;
     }
+    .designer{
+        width:100%;
+    }
 }
