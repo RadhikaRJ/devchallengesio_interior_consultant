@@ -90,6 +90,7 @@ nav a:focus {
 .columns{
     border:2px solid green;
     padding:2em;
+    height:fit-content;
 }
 
 .info a{
