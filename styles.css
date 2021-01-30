@@ -107,6 +107,7 @@ nav a:focus {
 .img-only{
     border: 2px solid green;
     z-index:0;
+   
 }
 .img-only img{
     width:680px;
@@ -114,12 +115,15 @@ nav a:focus {
     
 }
 .card{
-    
+    background-color: black;
+    position:relative;
+    top:-70px;
+    right:-55px;
     border: 2px solid yellow;
     width:55%;
     height:fit-content;
     margin-bottom:0;
-    z-index:5;
+    z-index:10;
 }
 .designer{
     display:flex;
@@ -230,7 +234,7 @@ nav a:focus {
         margin:0 auto;
         flex-wrap:wrap;
     }
-
+    
     .img-only img{
         width:100%;   
         
