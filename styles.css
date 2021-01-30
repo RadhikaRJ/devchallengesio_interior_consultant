@@ -6,7 +6,7 @@ body {
 
 .container {
     width: 90%;
-    max-width: 900px;
+    max-width: 1320px;
     /* border: 2px solid magenta; */
     margin: 0 auto;
 }
@@ -23,7 +23,7 @@ header {
 
 
 
-.container p {
+.logo{
     border: 2px solid white;
     padding: 0.25em;
 
@@ -56,6 +56,7 @@ nav a {
     text-decoration: none;
     color: white;
     padding: 0.25;
+    
 }
 
 nav a:hover,
@@ -66,7 +67,7 @@ nav a:focus {
 
 .current-page {
     font-weight: 900;
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 /*Styling Hamburger Icon*/
@@ -82,6 +83,80 @@ nav a:focus {
     display: none;
 }
 
+.container-main{
+    display:flex;
+    justify-content: space-between;
+}
+.columns{
+    border:2px solid green;
+    padding:2em;
+}
+
+.info a{
+    text-decoration:none;
+    color:white;
+}
+
+
+.img-card{
+    display:flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    position: relative;
+}
+.img-only{
+    border: 2px solid green;
+    z-index:0;
+}
+.img-only img{
+    width:680px;
+   
+    
+}
+.card{
+    
+    border: 2px solid yellow;
+    width:55%;
+    height:fit-content;
+    margin-bottom:0;
+    z-index:5;
+}
+.designer{
+    display:flex;
+   /* border:2px solid blue; */
+   margin:0;
+  
+}
+.designer img{
+    border-radius:50%;
+    width:15%;
+    height:10%;
+    padding:0.5em;
+    margin:0;
+
+}
+.designer p{
+    /* border:1px solid green; */
+    padding:0.25em;
+}
+.designation{
+    color:#726969;
+}
+.about-designer{
+    /* border: 2px solid red;    */
+    font-size:1.5em;;
+    padding:0 0.5em;
+}
+ .about-designer p{
+     /* border:2px solid magenta;      */
+     margin-top:0;
+     margin-bottom: 0;
+    
+ }
+
+.footer-content{
+    text-align: center;
+}
 
 @media (max-width:675px) {
 
@@ -148,4 +223,9 @@ nav a:focus {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 
+    .container-main{
+        flex-direction:row;
+        width:100%;
+        margin:0 auto;
+    }
 }
