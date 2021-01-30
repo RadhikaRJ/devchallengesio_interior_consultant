@@ -10,79 +10,43 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
   <title>Devchallenges | Interior-Consultant</title>
   <link href="styles.css" rel="stylesheet">
-  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+ 
 </head>
 
 <body>
-  
-
-    <div class="topnav" id="myTopnav">
-      <span class="nav-left-label" onclick="myFunction()">THIS INTERIOR</span>
-      <a href="javascript:void(0)" class="closebtn" onclick="myFunction()">&times;</a>
-      <a href="#home">Contact</a>
-      <a href="#collection">About</a>
-      <a href="#about">Collection</a>
-      <a href="#colllection" class="active ">Home</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-
-    </div>
-
-
-    <div class="container" id="myContainer">
-
-      <div class="top-left">
-        <h1 id="about">Modern interior</h1>
-        <p>A full-Service residential & commercial interior design and staging company offering professional organizing
-          &
-          eco-services.</p>
-        <p>Read more ➡️ </p>
+  <header>
+    <div class="container container-nav">
+      <div class="container-logo">
+        <p>THIS INTERIOR</p>
       </div>
+      <div class="container-nav">
+        <nav>
+          <ul class="nav-list" >
 
-      <div class="card-image">
-        <img src="photo1.png" id="right-image">
-
-        <div class="card">
-          <div class="card-column">
-            <img src="photo2.png" id="designer-image">
-            <div class="card-row">
-              <strong>Aliza Webber</strong><br>
-              <small style="color:rgb(136, 134, 131);">Interior designer</small>
-            </div>
-
-          </div>
-          <p>Designed in 2020 by <br> Aliza Webber</p>
-         
+            <li><a href="#" class="current-page">Home</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            
+            
+          </ul>
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-
-
-
+        </nav>
       </div>
-      
-
-
     </div>
-    <br><br><br><br>
-    <p id="DC">Radhika Joshi @DevChallenges.io</p>
-    <script>
-      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        var y = document.getElementById("myContainer");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-       
-        
-      }
-    </script>
+  </header>
 
-  
 
+
+  <footer class="container">
+    <div class="footer-content">Radhika Joshi @DevChallenges.io</div>
+  </footer>
+  <script src="nav.js" type="text/javascript"></script>
 </body>
 
 </html>
