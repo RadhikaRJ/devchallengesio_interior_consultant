@@ -236,12 +236,15 @@ nav a:focus {
         
     }
     .card{    
-        width:75%;
+        width:85%;
         height:fit-content;
         margin-bottom:0;
         z-index:5;
     }
     .designer{
         width:100%;
+    }
+    .about-designer{
+        font-size:1em;
     }
 }
