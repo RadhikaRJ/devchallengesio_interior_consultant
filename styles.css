@@ -235,4 +235,10 @@ nav a:focus {
         width:100%;   
         
     }
+    .card{    
+        width:75%;
+        height:fit-content;
+        margin-bottom:0;
+        z-index:5;
+    }
 }
