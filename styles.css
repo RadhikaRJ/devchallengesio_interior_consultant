@@ -230,4 +230,10 @@ nav a:focus {
         margin:0 auto;
         flex-wrap:wrap;
     }
+
+    .img-only img{
+        width:280px;
+       
+        
+    }
 }
