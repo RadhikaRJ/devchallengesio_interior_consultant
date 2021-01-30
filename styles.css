@@ -163,7 +163,7 @@ nav a:focus {
     text-align: center;
 }
 
-@media (max-width:475px) {
+@media (max-width:675px) {
 
     .container {
         width: 100%;       
